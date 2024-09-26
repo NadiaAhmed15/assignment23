@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="output"></p> <!-- Add a paragraph to display the output -->
+  
+  <script>
+var side1 = 5 ;
+var side2 = 6 ;
+var side3 = 7 ;
+
+var r =(side1+side2+side3)/2;
+var area =  Math.sqrt(r*((r-side1)*(r-side2)*(r-side3)));
+document.getElementById("output").innerText = area;
+  </script>
+</body>
+</html>

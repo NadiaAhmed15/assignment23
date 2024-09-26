@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="output"></p> <!-- Add a paragraph to display the output -->
+  
+  <script>
+    function addJavaScriptPrefix(str) {
+      return str + "JavaScript ";
+    }
+    
+    var message = "welcome to ";
+    document.getElementById("output").innerText = addJavaScriptPrefix(message); // Display result in the paragraph
+  </script>
+</body>
+</html>
